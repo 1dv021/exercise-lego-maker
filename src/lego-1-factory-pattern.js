@@ -22,7 +22,7 @@
  * @returns {function} obj.toString - A function returning a string representing the object.
  * @returns {function} obj.render - A function rendering the object.
  */
-let createLegoBrick = function (x, y, color) {
+const createLegoBrick = function (x, y, color) {
   // TODO: Write your code here.
 }
 

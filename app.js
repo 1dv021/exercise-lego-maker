@@ -17,7 +17,7 @@ const legoMaker5 = require('./src/lego-5-object-create')
 // Testing part 1
 try {
   console.log('\n- 1 -------------------\n')
-  let lego = legoMaker1.createLegoBrick()
+  const lego = legoMaker1.createLegoBrick()
   lego.render()
 } catch (e) {
   console.error('ERROR: ', e.message)
@@ -65,7 +65,7 @@ try {
 // Testing part 5
 try {
   console.log('\n- 1 -------------------\n')
-  let lego = legoMaker5.createLegoBrick()
+  const lego = legoMaker5.createLegoBrick()
   lego.render()
 } catch (e) {
   console.error('ERROR: ', e.message)
