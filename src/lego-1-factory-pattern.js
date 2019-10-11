@@ -27,4 +27,4 @@ const createLegoBrick = function (x, y, color) {
 }
 
 // Exports
-exports.createLegoBrick = createLegoBrick
+module.exports.createLegoBrick = createLegoBrick
